@@ -227,7 +227,7 @@ namespace QBD
                 cmd.Parameters.AddWithValue("@IsToBeEmailed", a.IsToBeEmailed);
                 cmd.Parameters.AddWithValue("@CustomerSalesTaxCodeRef_ListID", a.CustomerSalesTaxCodeRef_ListID);
 
-                Console.WriteLine(cmd.ExecuteNonQuery());
+                //Console.WriteLine(cmd.ExecuteNonQuery());
                 cmd.Dispose();
                 cmd = null;
 
